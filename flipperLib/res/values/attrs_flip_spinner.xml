@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="FlipSpinner">
+        <attr name="view_layout" format="reference" />
+    </declare-styleable>
+</resources>

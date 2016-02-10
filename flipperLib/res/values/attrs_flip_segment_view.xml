@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="FlipSegment">
+        <attr name="text" format="string" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="text_padding_bottom" format="dimension" />
+        <attr name="text_padding_top" format="dimension" />
+    </declare-styleable>
+</resources>

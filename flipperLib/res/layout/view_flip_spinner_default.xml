@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="1dip" >
+
+    <com.android.ui.flipper.FlipSegment
+        android:id="@+id/flip_spinner_back_upper"
+        android:layout_width="30dip"
+        android:layout_height="22dip"
+        android:background="@android:color/darker_gray"
+        app:text_padding_top="32dp"
+        app:text_size="24sp"
+        app:text_color="#FF0000"
+        app:text="0" />
+
+    <com.android.ui.flipper.FlipSegment
+        android:id="@+id/flip_spinner_back_lower"
+        android:layout_below="@+id/flip_spinner_back_upper"
+        android:layout_width="30dip"
+        android:layout_height="22dip"
+        android:background="@android:color/darker_gray"
+        app:text_padding_bottom="12dp"
+        app:text_size="24sp"
+        app:text_color="#FF0000"
+        app:text="0" />
+
+    <com.android.ui.flipper.FlipSegment
+        android:id="@+id/flip_spinner_front_upper"
+        android:layout_width="30dip"
+        android:layout_height="22dip"
+        android:background="@android:color/darker_gray"
+        app:text_padding_top="32dp"
+        app:text_size="24sp"
+        app:text_color="#FF0000"
+        app:text="0" />
+
+    <com.android.ui.flipper.FlipSegment
+        android:id="@+id/flip_spinner_front_lower"
+        android:layout_below="@+id/flip_spinner_front_upper"
+        android:layout_width="30dip"
+        android:layout_height="22dip"
+        android:background="@android:color/darker_gray"
+        app:text_padding_bottom="12dp"
+        app:text_size="24sp"
+        app:text_color="#FF0000"
+        app:text="0" />
+
+</RelativeLayout>
