@@ -5,5 +5,3 @@ The project is based on https://github.com/Vinayrraj/Android-FlipDigitView (the 
 - countdown made possible;
 - flipper segments became views with custom layout and text drawn, not just static images;
 - custom sets of flipping texts can be applied, not just a sequence of 10 chars, 0 to 9 (see the example).
-
-Due to the listed reasons neither original class nor package names were adequate for updated version, so I've changed them to more correct/generic ones.
