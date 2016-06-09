@@ -52,6 +52,10 @@ public class FlipSpinner extends RelativeLayout {
 		flipView.setStringValues(values);
 	}
 
+	public void setReverseDescendingAnimation(boolean value) {
+		flipView.reverseDescendingAnimation = value;
+	}
+
 	private void init(AttributeSet attrs, int defStyle) {
         final TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.FlipSpinner, defStyle, 0);
 
@@ -59,10 +63,7 @@ public class FlipSpinner extends RelativeLayout {
 		inflateLayout(layoutResourceId);
 
 		flipView = new FlipView(getContext(), getId(), flipMeterSpinner, null);
-	}
 
-	public String getCurrentString() {
-		return flipView.getString();
+		setReverseDescendingAnimation(a.getBoolean(R.styleable.FlipSpinner_reverse_descending_animation, false));
 	}
-
 }
